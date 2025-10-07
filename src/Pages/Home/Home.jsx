@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Home.css"
 import About from "../About/About"
-mport gymRoom from "../../assets/GYMroom.jpg";
+mport GYMroom from "../../assets/GYMroom.jpg";
 
 function Home() {
 	return(
@@ -9,7 +9,7 @@ function Home() {
 		<section className="home-section">
 			<div className="hero"    className="hero"
   style={{
-    backgroundImage: `url(${gymRoom})`,
+    backgroundImage: `url(${GYMroom})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
   }}>
