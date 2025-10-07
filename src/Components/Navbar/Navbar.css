@@ -1,0 +1,139 @@
+ nav{
+  width: 100%;
+  display:flex;
+  padding: 2px;
+  top:0;
+  left:0;
+  z-index: 1000;
+  height: 60px;
+  position: fixed;
+  background-color: #fff;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin: 0;            /* reset default */
+  padding: 0 30px;
+}
+nav ul li{
+  list-style: none;
+}
+
+/* push the li itself (the flex child) */
+nav ul li#push-right {
+  margin-left: auto;
+  list-style: none;
+}
+#hamMenu{
+   /*z-index: 1000;*/
+}
+
+/* keep anchors styled normally */
+.list-item {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: block; /* optional, makes anchors fill their li */
+}
+.list-item {
+  color: #000;
+}
+
+.list-item:hover {
+  color: orange;
+}
+
+.list-item2 {
+  color: white;
+  margin-left: auto; /* pushes Contact us to the far right */
+}
+.onMobile{
+ background-color: #000000e3;
+ height: 400px;
+ width: 100%;
+ display: none;
+ flex-direction: column;
+ /*justify-content: center;*/
+ padding: 2rem;
+ border-radius: 1rem;
+ 
+
+}
+
+.onMobile li .list-item{
+  list-style: none;
+  color: white;
+  text-align: center;
+}
+.onMobile li .list-item:hover{
+  cursor: pointer;
+  color: orange;
+  transform: translateY(5px) ;
+  transition: .3s ease-in-out ;
+}
+
+.mobile-menu{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin-right: 2rem;
+}
+.mobile-menu-close{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.fa-bars{
+  color: black;
+  font-size: 1.8rem;
+  letter-spacing: 10px;
+}
+.fa-times{
+  color: white;
+  font-size: 1.4rem;
+ 
+}
+.hamburger{
+  background-color: white;
+}
+
+.menuhidden{
+  width: 100%;
+  background: url("./src/assets/gym5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 1rem;
+  position: fixed;
+}
+
+@media (max-width: 700px) {
+ .onDesktop{
+  display: none;
+ }
+ .push-right{
+  display: none;
+ }
+ .menuhidden{
+   display: flex;
+ }
+}
+@media (min-width: 700px) {
+  
+  #hamMenu{
+     display: none;
+  }
+ .onMobile{
+  display: none;
+ }
+ .menuclose{
+  display: none;
+ }
+ .menuhidden{
+   display: none;
+   transition: .5s ease-in-out;
+ }
+}

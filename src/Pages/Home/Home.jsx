@@ -1,8 +1,10 @@
 import React from 'react';
 import "./Home.css"
+import About from "../About/About"
 
 function Home() {
 	return(
+		<>
 		<section className="home-section">
 			<div className="hero">
 				<div className="hero-container">
@@ -14,8 +16,11 @@ function Home() {
 				</div>
 				</div>
 			</div>
-		</section>
-	)
+		</section> 
+		<About/>
+
+		</>
+			)
 }
 
 export default Home;
