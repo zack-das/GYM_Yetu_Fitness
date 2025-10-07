@@ -7,7 +7,7 @@ function Home() {
 	return(
 		<>
 		<section className="home-section">
-			<div className="hero"    className="hero"
+			<div className="hero"
   style={{
     backgroundImage: `url(${gymRoom})`,
     backgroundSize: "cover",
