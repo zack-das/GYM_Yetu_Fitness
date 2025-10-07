@@ -102,7 +102,7 @@ nav ul li#push-right {
 
 .menuhidden{
   width: 100%;
-  background: url("./src/assets/gym5.jpg");
+  background: url("/gym5.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
