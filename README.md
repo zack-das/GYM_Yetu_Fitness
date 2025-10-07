@@ -2,7 +2,7 @@
 
 A modern fitness web application built with React + Vite, designed to make it easier for users to explore fitness programs, track workouts, and stay motivated. The project is deployed on Vercel and is open for collaboration from developers, designers, and fitness enthusiasts.
 
-🌐 Live Demo: GYM Yetu Fitness
+🌐 Live Demo: [GYM Yetu Fitness](https://gym-yetu-fitness.vercel.app/)
 
 📌 Features
 
