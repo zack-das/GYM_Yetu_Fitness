@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Home.css"
 import About from "../About/About"
-mport gymRoom from "../../assets/gym-room.jpg";
+mport gymRoom from "../../assets/GYMroom.jpg";
 
 function Home() {
 	return(
